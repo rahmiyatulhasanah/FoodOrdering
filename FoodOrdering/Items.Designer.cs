@@ -54,6 +54,8 @@ namespace FoodOrdering
             this.chk_kwetiau = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.text_payment = new System.Windows.Forms.TextBox();
             this.cmb_payment = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -92,8 +94,6 @@ namespace FoodOrdering
             this.btn_total = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
             this.tb_total = new System.Windows.Forms.TextBox();
-            this.text_payment = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -395,6 +395,24 @@ namespace FoodOrdering
             this.groupBox3.TabIndex = 32;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Form Pesanan";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Montserrat SemiBold", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(17, 264);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(185, 15);
+            this.label22.TabIndex = 40;
+            this.label22.Text = "Bayar ke sini, ya (OVO, GoPay):";
+            // 
+            // text_payment
+            // 
+            this.text_payment.Font = new System.Drawing.Font("Montserrat SemiBold", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.text_payment.Location = new System.Drawing.Point(17, 282);
+            this.text_payment.Name = "text_payment";
+            this.text_payment.Size = new System.Drawing.Size(188, 21);
+            this.text_payment.TabIndex = 39;
             // 
             // cmb_payment
             // 
@@ -822,24 +840,6 @@ namespace FoodOrdering
             this.tb_total.TabIndex = 48;
             this.tb_total.Text = "-";
             this.tb_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // text_payment
-            // 
-            this.text_payment.Font = new System.Drawing.Font("Montserrat SemiBold", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.text_payment.Location = new System.Drawing.Point(17, 282);
-            this.text_payment.Name = "text_payment";
-            this.text_payment.Size = new System.Drawing.Size(188, 21);
-            this.text_payment.TabIndex = 39;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Montserrat SemiBold", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(17, 264);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(185, 15);
-            this.label22.TabIndex = 40;
-            this.label22.Text = "Bayar ke sini, ya (OVO, GoPay):";
             // 
             // frm_item
             // 
