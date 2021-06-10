@@ -156,6 +156,7 @@ namespace FoodOrdering
             this.text_mieayambakso.Name = "text_mieayambakso";
             this.text_mieayambakso.Size = new System.Drawing.Size(40, 21);
             this.text_mieayambakso.TabIndex = 39;
+            this.text_mieayambakso.Text = "0";
             this.text_mieayambakso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_mieayambakso
@@ -187,6 +188,7 @@ namespace FoodOrdering
             this.text_mieayam.Name = "text_mieayam";
             this.text_mieayam.Size = new System.Drawing.Size(40, 21);
             this.text_mieayam.TabIndex = 36;
+            this.text_mieayam.Text = "0";
             this.text_mieayam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_mieayam
@@ -218,6 +220,7 @@ namespace FoodOrdering
             this.text_bakso.Name = "text_bakso";
             this.text_bakso.Size = new System.Drawing.Size(40, 21);
             this.text_bakso.TabIndex = 33;
+            this.text_bakso.Text = "0";
             this.text_bakso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_bakso
@@ -249,6 +252,7 @@ namespace FoodOrdering
             this.text_buryam.Name = "text_buryam";
             this.text_buryam.Size = new System.Drawing.Size(40, 21);
             this.text_buryam.TabIndex = 30;
+            this.text_buryam.Text = "0";
             this.text_buryam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_buryam
@@ -290,6 +294,7 @@ namespace FoodOrdering
             this.text_nasigoreng.Name = "text_nasigoreng";
             this.text_nasigoreng.Size = new System.Drawing.Size(40, 21);
             this.text_nasigoreng.TabIndex = 26;
+            this.text_nasigoreng.Text = "0";
             this.text_nasigoreng.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_nasigoreng
@@ -351,6 +356,7 @@ namespace FoodOrdering
             this.text_kwetiau.Name = "text_kwetiau";
             this.text_kwetiau.Size = new System.Drawing.Size(40, 21);
             this.text_kwetiau.TabIndex = 5;
+            this.text_kwetiau.Text = "0";
             this.text_kwetiau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_kwetiau
@@ -539,6 +545,7 @@ namespace FoodOrdering
             this.text_hotchoco.Name = "text_hotchoco";
             this.text_hotchoco.Size = new System.Drawing.Size(40, 21);
             this.text_hotchoco.TabIndex = 39;
+            this.text_hotchoco.Text = "0";
             this.text_hotchoco.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_hotchoco
@@ -570,6 +577,7 @@ namespace FoodOrdering
             this.text_vanillalatte.Name = "text_vanillalatte";
             this.text_vanillalatte.Size = new System.Drawing.Size(40, 21);
             this.text_vanillalatte.TabIndex = 36;
+            this.text_vanillalatte.Text = "0";
             this.text_vanillalatte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_vanillalatte
@@ -601,6 +609,7 @@ namespace FoodOrdering
             this.text_kopisusu.Name = "text_kopisusu";
             this.text_kopisusu.Size = new System.Drawing.Size(40, 21);
             this.text_kopisusu.TabIndex = 33;
+            this.text_kopisusu.Text = "0";
             this.text_kopisusu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_kopisusu
@@ -632,6 +641,7 @@ namespace FoodOrdering
             this.text_milkshake.Name = "text_milkshake";
             this.text_milkshake.Size = new System.Drawing.Size(40, 21);
             this.text_milkshake.TabIndex = 30;
+            this.text_milkshake.Text = "0";
             this.text_milkshake.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_milkshake
@@ -673,6 +683,7 @@ namespace FoodOrdering
             this.text_jus.Name = "text_jus";
             this.text_jus.Size = new System.Drawing.Size(40, 21);
             this.text_jus.TabIndex = 26;
+            this.text_jus.Text = "0";
             this.text_jus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_jus
@@ -734,6 +745,7 @@ namespace FoodOrdering
             this.text_capcin.Name = "text_capcin";
             this.text_capcin.Size = new System.Drawing.Size(40, 21);
             this.text_capcin.TabIndex = 5;
+            this.text_capcin.Text = "0";
             this.text_capcin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chk_capcin

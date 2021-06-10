@@ -269,36 +269,6 @@ namespace FoodOrdering
 
         private void btn_total_Click(object sender, EventArgs e)
         {
-            #region biar value text boxnya 0
-            
-
-            if (text_kwetiau.Text == "")
-                text_kwetiau.Text = "0";
-            if (text_nasigoreng.Text == "")
-                text_nasigoreng.Text = "0";
-            if (text_buryam.Text == "")
-                text_buryam.Text = "0";
-            if (text_bakso.Text == "")
-                text_bakso.Text = "0";
-            if (text_mieayam.Text == "")
-                text_mieayam.Text = "0";
-            if (text_mieayambakso.Text == "")
-                text_mieayambakso.Text = "0";
-            
-            if (text_capcin.Text == "")
-                text_capcin.Text = "0";
-            if (text_jus.Text == "")
-                text_jus.Text = "0";
-            if (text_milkshake.Text == "")
-                text_milkshake.Text = "0";
-            if (text_kopisusu.Text == "")
-                text_kopisusu.Text = "0";
-            if (text_vanillalatte.Text == "")
-                text_vanillalatte.Text = "0";
-            if (text_hotchoco.Text == "")
-                text_hotchoco.Text = "0";
-            #endregion
-
             double[] itemcosts = new double[100];
             itemcosts[0] = Convert.ToDouble(text_kwetiau.Text) * harga_kwetiau;
             itemcosts[1] = Convert.ToDouble(text_nasigoreng.Text) * harga_nasigoreng;
